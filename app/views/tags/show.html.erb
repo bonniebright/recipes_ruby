@@ -1,0 +1,6 @@
+<h2><% tag.keyword %></h2>
+<ul>
+<% @tag.recipes.each do |recipe| %>
+  <li> <%= recipe.name %> </li>
+    <% end %>
+</ul>
